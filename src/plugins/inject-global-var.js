@@ -1,8 +1,13 @@
-// import lodash from 'lodash'
-// import {cloneDeep} from 'lodash'
+import get from 'lodash/get'
+import groupBy from 'lodash/groupBy'
+import throttle from 'lodash/throttle'
+import debounce from 'lodash/debounce'
 import cloneDeep from 'lodash/cloneDeep'
 
 window.glodash = {
-    // cloneDeep: lodash.cloneDeep,
+    get,
+    groupBy,
+    debounce,
+    throttle,
     cloneDeep,
 }
