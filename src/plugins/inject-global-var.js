@@ -1,8 +1,13 @@
-import get from 'lodash/get'
-import groupBy from 'lodash/groupBy'
-import throttle from 'lodash/throttle'
-import debounce from 'lodash/debounce'
-import cloneDeep from 'lodash/cloneDeep'
+// 使用babel-plugin-lodash
+// 将解构的形式转换为：
+// import get from 'lodash/get'
+import {
+    get,
+    groupBy,
+    debounce,
+    throttle,
+    cloneDeep,
+} from 'lodash'
 
 window.glodash = {
     get,
