@@ -20,6 +20,12 @@ const config = {
             filename: 'js/[name].[hash:8].js',
             chunkFilename: 'js/[name].[hash:8].js',
         },
+        // resolve: {
+        //     extensions: ['.js', '.vue', '.json'],
+        //     alias: {
+        //         'lodash': 'lodash/lodash.min.js',
+        //     },
+        // },
         plugins: [
             new BundleAnalyzerPlugin(),
         ],
