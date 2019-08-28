@@ -5,6 +5,7 @@ module.exports = {
     ],
     plugins: [
         'lodash',
+        'glodash',
         'add-module-exports',
         '@babel/plugin-proposal-class-properties',
         [
